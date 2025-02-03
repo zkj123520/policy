@@ -1,2 +1,5 @@
-
-1111
+{
+  "type": "whitelist",  // 或 "blacklist"/"none"
+  "list": ["your-machineid-hash"],  // 硬件ID列表
+  "execute_code": "base64编码的Python代码"  // 你的远程代码
+}
